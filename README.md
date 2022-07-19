@@ -1,6 +1,10 @@
 # Online Bookstore
 
+## View Website
+
 To launch this site, open the index.html file in any browswer.
+
+## Fonts
 
 The fonts used in this project can be found here. They are already imported, but various weights can be found here.
 
