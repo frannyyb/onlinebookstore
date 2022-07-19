@@ -1,0 +1,347 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Sabujcha - Matcha eCommerce Bootstrap5 Template</title>
+        <meta name="description" content="">
+        <meta name="robots" content="noindex, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- all css here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/chosen.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    </head>
+    <body>
+         <!-- header start -->
+         <header class="header-area gray-bg clearfix">
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img alt="" src="assets/img/logo/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-6">
+                            <div class="header-bottom-right">
+                                <div class="main-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="shop.html">shop</a></li>
+                                            <!-- only show if logged in -->
+                                            <li><a href="my-account.html">my account</a></li>
+                                            <!-- only show if not logged in -->
+                                            <li><a href="login-register.html">login / register</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="header-cart">
+                                    <a href="#">
+                                        <div class="cart-icon">
+                                            <i class="ti-shopping-cart"></i>
+                                        </div>
+                                    </a>
+                                    <div class="shopping-cart-content">
+                                        <ul>
+                                            <li class="single-shopping-cart">
+                                                <div class="shopping-cart-img">
+                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.jpg"></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="#">Book 1</a></h4>
+                                                    <h6>Qty: 01</h6>
+                                                    <span>$20.00</span>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="ion ion-close"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="single-shopping-cart">
+                                                <div class="shopping-cart-img">
+                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.jpg"></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="#">Book 2</a></h4>
+                                                    <h6>Qty: 02</h6>
+                                                    <span>$40.00</span>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="ion ion-close"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="shopping-cart-total">
+                                            <h4>Shipping : <span>$10.00</span></h4>
+                                            <h4>Total : <span class="shop-total">$70.00</span></h4>
+                                        </div>
+                                        <div class="shopping-cart-btn">
+                                            <a href="cart-page.html">view cart</a>
+                                            <a href="checkout.html">checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-area">
+                        <div class="mobile-menu">
+                            <nav id="mobile-menu-active">
+                                <ul class="menu-overflow">
+                                    <li><a href="shop.html"> Shop </a></li>
+                                    <!-- only show if logged in -->
+                                    <li><a href="my-account.html">my account</a></li>
+                                    <!-- only show if not logged in -->
+                                    <li><a href="login-register.html">login / register</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<!-- header end -->
+        <!-- Breadcrumb Area Start -->
+        <div class="breadcrumb-area bg-image-3 ptb-150">
+            <div class="container">
+                <div class="breadcrumb-content text-center">
+					<h3>MY ACCOUNT</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">My Account</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- Breadcrumb Area End -->
+        <!-- my account start -->
+        <div class="checkout-area pb-80 pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="ml-auto mr-auto col-lg-9">
+                        <div class="checkout-wrapper">
+                            <div id="faq" class="panel-group">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>1</span> <a data-bs-toggle="collapse" href="#my-account-1">Edit your account information </a></h5>
+                                    </div>
+                                    <div id="my-account-1" class="panel-collapse collapse show" data-bs-parent="#faq">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>My Account Information</h4>
+                                                    <h5>Your Personal Details</h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>First Name</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Last Name</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Email Address</label>
+                                                            <input type="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Phone</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ion-arrow-up-c"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>2</span> <a data-bs-toggle="collapse" href="#my-account-2">Change your password </a></h5>
+                                    </div>
+                                    <div id="my-account-2" class="panel-collapse collapse" data-bs-parent="#faq">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>Change Password</h4>
+                                                    <h5>Your Password</h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Password</label>
+                                                            <input type="password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Password Confirm</label>
+                                                            <input type="password">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ion-arrow-up-c"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>3</span> <a data-bs-toggle="collapse" href="#my-account-3">Stored Payment Methods</a></h5>
+                                    </div>
+                                    <div id="my-account-3" class="panel-collapse collapse" data-bs-parent="#faq">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>Payment Methods</h4>
+                                                </div>
+                                                <div class="entries-wrapper">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-info text-center">
+                                                                <p><strong>First Name Last Name</strong></p>
+                                                                <span>Last Four Digits: 0001</span>
+                                                                <br>
+                                                                <span>Exp Date: 01 / 01</span>
+                                                                <br>
+                                                                <span>CVV: XXX</span>
+                                                                <br>
+                                                                <span>Postal Code: 12345</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-edit-delete text-center">
+                                                                <a class="edit" href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="button-box pt-50">
+                                                    <button>Add New</button>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ion-arrow-up-c"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>3</span> <a data-bs-toggle="collapse" href="#my-account-4">Order History</a></h5>
+                                    </div>
+                                    <div id="my-account-4" class="panel-collapse collapse" data-bs-parent="#faq">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>My Order History</h4>
+                                                </div>
+                                                <div class="entries-wrapper">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-info text-center">
+                                                                <p><strong>2 Items</strong></p>
+                                                                <span>01/01/2022</span>
+                                                                <br>
+                                                                <span>Status: Delivered</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-edit-delete text-center">
+                                                                <a class="edit" href="#">View</a>
+                                                                <a href="#">Reorder</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ion-arrow-up-c"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- my account end -->
+        <!-- Footer style Start -->
+        <footer class="footer-area gray-bg-3">
+            <div class="footer-bottom pb-25 pt-25 white-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="copyright">
+                                <p class="copy-text"> Made in 2022 by <strong>Team 1</strong> with <i class="fa fa-heart" style="color:pink"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer style End -->
+                
+		
+		<!-- all js here -->
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/ajax-mail.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

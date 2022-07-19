@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Team 1 Online Bookstore</title>
+        <meta name="description" content="">
+        <meta name="robots" content="noindex, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- all css here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/chosen.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    </head>
+    <body>
+        <!-- header start -->
+        <header class="header-area gray-bg clearfix">
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img alt="" src="assets/img/logo/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-6">
+                            <div class="header-bottom-right">
+                                <div class="main-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="shop.html">shop</a></li>
+                                            <!-- only show if logged in -->
+                                            <li><a href="my-account.html">my account</a></li>
+                                            <!-- only show if not logged in -->
+                                            <li><a href="login-register.html">login / register</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="header-cart">
+                                    <a href="#">
+                                        <div class="cart-icon">
+                                            <i class="ti-shopping-cart"></i>
+                                        </div>
+                                    </a>
+                                    <div class="shopping-cart-content">
+                                        <ul>
+                                            <li class="single-shopping-cart">
+                                                <div class="shopping-cart-img">
+                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.jpg"></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="#">Book 1</a></h4>
+                                                    <h6>Qty: 01</h6>
+                                                    <span>$20.00</span>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="ion ion-close"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="single-shopping-cart">
+                                                <div class="shopping-cart-img">
+                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.jpg"></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="#">Book 2</a></h4>
+                                                    <h6>Qty: 02</h6>
+                                                    <span>$40.00</span>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="ion ion-close"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="shopping-cart-total">
+                                            <h4>Shipping : <span>$10.00</span></h4>
+                                            <h4>Total : <span class="shop-total">$70.00</span></h4>
+                                        </div>
+                                        <div class="shopping-cart-btn">
+                                            <a href="cart-page.html">view cart</a>
+                                            <a href="checkout.html">checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-area">
+                        <div class="mobile-menu">
+                            <nav id="mobile-menu-active">
+                                <ul class="menu-overflow">
+                                    <li><a href="shop.html"> Shop </a></li>
+                                    <!-- only show if logged in -->
+                                    <li><a href="my-account.html">my account</a></li>
+                                    <!-- only show if not logged in -->
+                                    <li><a href="login-register.html">login / register</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<!-- header end -->
+        <!-- Breadcrumb Area Start -->
+        <div class="breadcrumb-area bg-image-3 ptb-150">
+            <div class="container">
+                <div class="breadcrumb-content text-center">
+					<h3>LOGIN</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Login</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- Breadcrumb Area End -->
+        <div class="login-register-area ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 me-auto ms-auto">
+                        <div class="login-register-wrapper">
+                            <div class="login-register-tab-list nav">
+                                <a class="active" data-bs-toggle="tab" href="#lg1">
+                                    <h4> login </h4>
+                                </a>
+                                <a data-bs-toggle="tab" href="#lg2">
+                                    <h4> register </h4>
+                                </a>
+                            </div>
+                            <div class="tab-content">
+                                <div id="lg1" class="tab-pane active">
+                                    <div class="login-form-container">
+                                        <div class="login-register-form">
+                                            <form action="#" method="post">
+                                                <input type="email" name="user-email" placeholder="Email">
+                                                <input type="password" name="user-password" placeholder="Password">
+                                                <div class="button-box">
+                                                    <div class="login-toggle-btn">
+                                                        <a href="#">Forgot Password?</a>
+                                                    </div>
+                                                    <button type="submit"><span>Login</span></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="lg2" class="tab-pane">
+                                    <div class="login-form-container">
+                                        <div class="login-register-form">
+                                            <form action="#" method="post">
+                                                <input type="text" name="first-name" placeholder="First Name">
+                                                <input type="text" name="last-name" placeholder="Last Name">
+                                                <input type="email" name="user-email" placeholder="Email">
+                                                <input type="password" name="user-password" placeholder="Password">
+                                                <div class="button-box">
+                                                    <button type="submit"><span>Register</span></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-box pt-50">
+                            <button>Admin Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<!-- Footer style Start -->
+        <footer class="footer-area gray-bg-3">
+            <div class="footer-bottom pb-25 pt-25 white-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="copyright">
+                                <p class="copy-text"> Made in 2022 by <strong>Team 1</strong> with <i class="fa fa-heart" style="color:pink"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!-- Footer style End -->        
+        
+		<!-- all js here -->
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/ajax-mail.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
