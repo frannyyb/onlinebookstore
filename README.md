@@ -1,4 +1,4 @@
-# onlinebookstore
+# Online Bookstore
 
 To launch this site, open the index.html file in any browswer.
 
